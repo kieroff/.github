@@ -1,0 +1,66 @@
+name: Bug
+description: Reportar problema ou comportamento incorreto
+title: "[BUG] "
+labels: ["type:bug", "category:fix"]
+assignees: []
+
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 🐞 Descrição do Problema
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 🔁 Passos para Reproduzir
+      placeholder: |
+        1. 
+        2. 
+        3. 
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: ✅ Comportamento Esperado
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: ❌ Comportamento Atual
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 🧪 Evidências
+      description: Logs, prints, etc.
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: ⚠️ Severidade
+      options:
+        - Low
+        - Medium
+        - High
+        - Critical
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: ✅ Critérios de Aceitação
+      placeholder: |
+        - [ ] Bug não ocorre mais
+        - [ ] Teste cobre o cenário
+    validations:
+      required: true
