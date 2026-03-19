@@ -1,6 +1,6 @@
 blank_issues_enabled: false
 
 contact_links:
-  - name: Perguntas / Discussões
+  - name: Questions / Discuss
     url: https://github.com/kieroff
-    about: Use para dúvidas gerais fora de issues
+    about: Use to solve general questions rather than issues
