@@ -1,0 +1,89 @@
+name: User Story
+description: Funcionalidade do ponto de vista do usuário
+title: "[US] "
+labels: ["type:user-story"]
+assignees: []
+
+body:
+  - type: textarea
+    id: story
+    attributes:
+      label: 👤 História
+      description: Formato padrão
+      placeholder: |
+        Como um [usuário],
+        eu quero [ação],
+        para [benefício].
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 🧾 Descrição
+    validations:
+      required: true
+
+  - type: textarea
+    id: objective
+    attributes:
+      label: 🎯 Objetivo
+      description: Valor de negócio
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: 📂 Categoria
+      options:
+        - Feature
+        - Improvement
+        - Tech Debt
+        - Refactor
+        - Spike
+    validations:
+      required: true
+
+  - type: dropdown
+    id: domain
+    attributes:
+      label: 🧩 Domain
+      options:
+        - Core
+        - Auth
+        - Payments
+        - Users
+        - Notifications
+        - Shared
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: ✅ Critérios de Aceitação
+      placeholder: |
+        - [ ] 
+        - [ ] 
+    validations:
+      required: true
+
+  - type: textarea
+    id: tests
+    attributes:
+      label: 🧪 Casos de Teste
+      placeholder: |
+        - [ ] Fluxo principal
+        - [ ] Edge case
+        - [ ] Erros
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: 🔗 Dependências
+
+  - type: textarea
+    id: references
+    attributes:
+      label: 📎 Referências
