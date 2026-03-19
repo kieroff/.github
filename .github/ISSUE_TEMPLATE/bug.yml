@@ -1,7 +1,7 @@
 name: Bug
 description: Reportar problema ou comportamento incorreto
 title: "[BUG] "
-labels: ["type:bug", "category:fix"]
+labels: ["type:bug", "category:maitenance"]
 assignees: []
 
 body:
