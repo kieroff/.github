@@ -1,5 +1,5 @@
 name: Bug
-description: Reportar problema ou comportamento incorreto
+description: Report a problem or inappropriate behavior
 title: "[BUG] "
 labels: ["kind:bug", "category:maitenance"]
 assignees: []
