@@ -1,51 +1,51 @@
 name: Epic
-description: Iniciativa macro que agrupa múltiplas user stories
+description: A macro initiative that brings together multiple user stories
 title: "[EPIC] "
-labels: ["type:epic"]
+labels: ["kind:epic"]
 assignees: []
 
 body:
   - type: textarea
     id: overview
     attributes:
-      label: 🧾 Visão Geral
-      description: Descreva o escopo do épico
+      label: 🧾 Overview
+      description: Describe the epic's scope
     validations:
       required: true
 
   - type: textarea
     id: objective
     attributes:
-      label: 🎯 Objetivo
-      description: Qual problema ou valor de negócio esse épico resolve?
+      label: 🎯 Objective
+      description: What problem or business value does this epic address?
     validations:
       required: true
 
   - type: textarea
     id: scope
     attributes:
-      label: 📦 Escopo
-      description: Liste as entregas principais
+      label: 📦 Scope
+      description: List the main deliverables
       placeholder: |
-        - Funcionalidade A
-        - Funcionalidade B
+        - Feature A
+        - Feature B
     validations:
       required: true
 
   - type: textarea
     id: out_of_scope
     attributes:
-      label: 🚫 Fora de Escopo
-      description: O que NÃO faz parte
+      label: 🚫 Out of Scope
+      description: What is NOT included
 
   - type: textarea
     id: success_metrics
     attributes:
-      label: 📊 Métricas de Sucesso
-      description: Como medir sucesso
+      label: 📊 Success Metrics
+      description: How to measure success
 
   - type: textarea
     id: references
     attributes:
-      label: 📎 Referências
+      label: 📎 References
       description: Links, docs, etc.
