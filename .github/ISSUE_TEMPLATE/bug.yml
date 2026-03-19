@@ -1,21 +1,21 @@
 name: Bug
 description: Reportar problema ou comportamento incorreto
 title: "[BUG] "
-labels: ["type:bug", "category:maitenance"]
+labels: ["kind:bug", "category:maitenance"]
 assignees: []
 
 body:
   - type: textarea
     id: problem
     attributes:
-      label: 🐞 Descrição do Problema
+      label: 🐞 Problem Description
     validations:
       required: true
 
   - type: textarea
     id: steps
     attributes:
-      label: 🔁 Passos para Reproduzir
+      label: 🔁 Steps to reproduce the problem
       placeholder: |
         1. 
         2. 
@@ -26,27 +26,27 @@ body:
   - type: textarea
     id: expected
     attributes:
-      label: ✅ Comportamento Esperado
+      label: ✅ Expected Behavior
     validations:
       required: true
 
   - type: textarea
     id: actual
     attributes:
-      label: ❌ Comportamento Atual
+      label: ❌ Actual Behavior
     validations:
       required: true
 
   - type: textarea
     id: evidence
     attributes:
-      label: 🧪 Evidências
+      label: 🧪 Evidences
       description: Logs, prints, etc.
 
   - type: dropdown
     id: severity
     attributes:
-      label: ⚠️ Severidade
+      label: ⚠️ Severity
       options:
         - Low
         - Medium
@@ -58,9 +58,9 @@ body:
   - type: textarea
     id: acceptance
     attributes:
-      label: ✅ Critérios de Aceitação
+      label: ✅ Acceptance Criteria
       placeholder: |
-        - [ ] Bug não ocorre mais
-        - [ ] Teste cobre o cenário
+        - [ ] Bug no longer occurs
+        - [ ] Test covers the scenario 
     validations:
       required: true
