@@ -1,28 +1,28 @@
 name: Task
-description: Trabalho técnico ou operacional
+description: Technical or operational work
 title: "[TASK] "
-labels: ["type:task"]
+labels: ["kind:task"]
 assignees: []
 
 body:
   - type: textarea
     id: description
     attributes:
-      label: 🧾 Descrição
+      label: 🧾 Description
     validations:
       required: true
 
   - type: textarea
     id: objective
     attributes:
-      label: 🎯 Objetivo
+      label: 🎯 Objective
     validations:
       required: true
 
   - type: dropdown
     id: category
     attributes:
-      label: 📂 Categoria
+      label: 📂 Category
       options:
         - Feature
         - Improvement
@@ -41,13 +41,15 @@ body:
         - Backend
         - Infra
         - Automation
+        - Data
+        - Integration
     validations:
       required: true
 
   - type: textarea
     id: acceptance
     attributes:
-      label: ✅ Critérios de Aceitação
+      label: ✅ Acceptance Criteria
       placeholder: |
         - [ ] 
     validations:
@@ -56,18 +58,18 @@ body:
   - type: textarea
     id: technical_notes
     attributes:
-      label: 🧠 Notas Técnicas
+      label: 🧠 Technical Notes
 
   - type: textarea
     id: dependencies
     attributes:
-      label: 🔗 Dependências
+      label: 🔗 Dependencies
 
   - type: textarea
     id: deliverables
     attributes:
-      label: 📦 Entregáveis
+      label: 📦 Deliverables
       placeholder: |
-        - [ ] Código
-        - [ ] Testes
-        - [ ] Documentação
+        - [ ] Code
+        - [ ] Tests
+        - [ ] Documentation
